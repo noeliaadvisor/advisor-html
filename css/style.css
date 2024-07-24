@@ -1,0 +1,42 @@
+body {
+     font-family: "Bitter", serif;
+}
+
+#titulo {
+     color: brown;
+
+}
+
+#h2 {
+     color: rgba(102, 180, 6, 0.689);
+}
+
+#contacto {
+     background-color: #FFCBAF;
+     background-size: contain;
+     list-style-type: none;
+     text-align: center;
+     display: inline;
+     text-align: center;
+     margin: 0 20px 0 00;
+}
+
+
+
+
+.rosa {
+     height: 100px;
+     width: 1500px;
+     background-image: url("../img/latido.png");
+     background-size: contain;
+     list-style-type: none;
+     text-align: center;
+}
+
+.rosa li {
+     display: inline;
+     text-align: center;
+     margin: 0 20px 0 00;
+}
+
+
