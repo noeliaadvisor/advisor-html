@@ -1,18 +1,25 @@
 body {
      font-family: "Bitter", serif;
-}
-
-#titulo {
-     color: brown;
+     color: white;
 
 }
-
-#h2 {
-     color: rgba(102, 180, 6, 0.689);
+.t {
+     text-align: justify;
+     
 }
 
 #contacto {
-     background-color: #FFCBAF;
+     background-color: black;
+     background-size: contain;
+     list-style-type: none;
+     text-align: center;
+     display: inline;
+     text-align: center;
+     margin: 0 20px 0 00;
+}
+
+#producto {
+     background-color: black;
      background-size: contain;
      list-style-type: none;
      text-align: center;
@@ -27,7 +34,7 @@ body {
 .rosa {
      height: 100px;
      width: 1500px;
-     background-image: url("../img/latido.png");
+     background-image: url("../img/F.png");
      background-size: contain;
      list-style-type: none;
      text-align: center;
@@ -39,4 +46,40 @@ body {
      margin: 0 20px 0 00;
 }
 
+/* mobile first phone  */
 
+@media only screen and (min-width:375px) and (max-width:480px) {
+     body {
+          background-color:black
+     }
+}
+header {
+     color: white;
+     display:flex ;
+     align-items:center;
+     justify-content: space-between;
+}
+ header nav ul {
+     list-style: none;
+     display: flex;
+     gap: 10px;
+     margin: auto;
+     padding: auto;
+     
+ }
+
+/* media screen de mobile tablet e ipad */
+@media only screen and (min-width:600px) and (max-width :820px) {
+     body {
+          background-color: black
+     
+     }
+
+}
+/* media srceen de desktop*/
+@media only screen and (min-width:1000px) and (max-width:1920px){
+     body {
+          background-color: black;
+     }
+}
+     
