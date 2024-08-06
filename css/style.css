@@ -1,85 +1,122 @@
+/* reset */
+
+/* PRINCIPAL */
+
 body {
-     font-family: "Bitter", serif;
-     color: white;
-
-}
-.t {
-     text-align: justify;
-     
-}
-
-#contacto {
      background-color: black;
-     background-size: contain;
-     list-style-type: none;
-     text-align: center;
-     display: inline;
-     text-align: center;
-     margin: 0 20px 0 00;
 }
 
-#producto {
-     background-color: black;
-     background-size: contain;
-     list-style-type: none;
-     text-align: center;
-     display: inline;
-     text-align: center;
-     margin: 0 20px 0 00;
-}
-
-
-
-
-.rosa {
-     height: 100px;
-     width: 1500px;
-     background-image: url("../img/F.png");
-     background-size: contain;
-     list-style-type: none;
-     text-align: center;
-}
-
-.rosa li {
-     display: inline;
-     text-align: center;
-     margin: 0 20px 0 00;
-}
-
-/* mobile first phone  */
-
-@media only screen and (min-width:375px) and (max-width:480px) {
-     body {
-          background-color:black
-     }
-}
-header {
+h1 {
+     font-family: "Edu AU VIC WA NT Hand";
+     font-size: 200%;
      color: white;
-     display:flex ;
-     align-items:center;
-     justify-content: space-between;
+     text-align: center;
 }
- header nav ul {
-     list-style: none;
+
+h2 {
+     font-family: "Edu AU VIC WA NT Hand";
+     font-size: 150%;
+     color: white;
+}
+
+p {
+     font-family: "Edu AU VIC WA NT Hand";
+     font-size: 120%;
+     color: white;
+}
+
+
+
+/* HEADER */
+
+.logo {
+     width: 60px;
+     margin-right: 10px;
+}
+
+.nav-link.active {
+     font-weight: bold;
+}
+
+
+
+/* MAIN */
+
+main {
+     padding-inline: 15%;
+}
+
+.imagen {
+     max-width: 400px;
+}
+
+.fila {
      display: flex;
-     gap: 10px;
-     margin: auto;
-     padding: auto;
-     
- }
+     flex-wrap: wrap;
+     padding: 1%;
+}
 
-/* media screen de mobile tablet e ipad */
-@media only screen and (min-width:600px) and (max-width :820px) {
-     body {
-          background-color: black
-     
+.columna {
+     flex: auto;
+     padding: 1%;
+}
+
+.galeria-imagen {
+     max-width: 300px;
+}
+
+.centrado {
+     text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+     text-align: center;
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1024px) {
+
+     main {
+          padding-inline: 5%;
+     }
+
+     .columna {
+          text-align: center;
+     }
+
+     .imagen {
+          max-width: 400px;
+     }
+
+     .galeria-imagen {
+          max-width: 300px;
+     }
+}
+
+
+@media screen and (max-width: 480px) {
+
+     main {
+          padding-inline: 0;
+     }
+
+     .columna {
+          flex-basis: 100%;
+          text-align: center;
+     }
+
+     .imagen {
+          max-width: 250px;
+     }
+
+     .galeria-imagen {
+          max-width: 250px;
      }
 
 }
-/* media srceen de desktop*/
-@media only screen and (min-width:1000px) and (max-width:1920px){
-     body {
-          background-color: black;
-     }
-}
-     
