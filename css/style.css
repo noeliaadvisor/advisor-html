@@ -1,122 +1,123 @@
 /* reset */
-
 /* PRINCIPAL */
-
 body {
-     background-color: black;
+  background-color: black;
+}
+
+p, h2,
+h3,
+h4, h1 {
+  font-family: "Edu AU VIC WA NT Hand";
+  font-size: 120%;
+  color: white;
 }
 
 h1 {
-     font-family: "Edu AU VIC WA NT Hand";
-     font-size: 200%;
-     color: white;
-     text-align: center;
+  font-size: 200%;
+  text-align: center;
 }
 
-h2 {
-     font-family: "Edu AU VIC WA NT Hand";
-     font-size: 150%;
-     color: white;
+h2,
+h3,
+h4 {
+  font-size: 150%;
 }
-
-p {
-     font-family: "Edu AU VIC WA NT Hand";
-     font-size: 120%;
-     color: white;
-}
-
-
 
 /* HEADER */
-
 .logo {
-     width: 60px;
-     margin-right: 10px;
+  width: 60px;
+  margin-right: 10px;
 }
 
 .nav-link.active {
-     font-weight: bold;
+  font-weight: bold;
 }
 
-
-
 /* MAIN */
-
 main {
-     padding-inline: 15%;
+  margin-inline: 15%;
 }
 
 .imagen {
-     max-width: 400px;
+  max-width: 400px;
 }
 
 .fila {
-     display: flex;
-     flex-wrap: wrap;
-     padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 1%;
 }
 
 .columna {
-     flex: auto;
-     padding: 1%;
+  max-width: 600px;
+  margin: 1%;
 }
 
 .galeria-imagen {
-     max-width: 300px;
+  max-width: 300px;
 }
 
 .centrado {
-     text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
+.animacion:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
 
+.icon {
+  color: white;
+  font-size: 36px;
+}
+
+.accordion {
+  width: 600px;
+}
 
 /* FOOTER */
-
-footer {
-     text-align: center;
+.footer {
+  margin-inline: 25%;
+  justify-content: center;
 }
-
-
-/* MEDIA */
 
 @media screen and (max-width: 1024px) {
-
-     main {
-          padding-inline: 5%;
-     }
-
-     .columna {
-          text-align: center;
-     }
-
-     .imagen {
-          max-width: 400px;
-     }
-
-     .galeria-imagen {
-          max-width: 300px;
-     }
+  main {
+    margin-inline: 5%;
+  }
+  .imagen {
+    max-width: 300px;
+  }
+  .fila {
+    justify-content: center;
+    text-align: center;
+  }
+  .columna {
+    max-width: 300px;
+  }
+  .galeria-imagen {
+    max-width: 300px;
+  }
 }
-
-
 @media screen and (max-width: 480px) {
-
-     main {
-          padding-inline: 0;
-     }
-
-     .columna {
-          flex-basis: 100%;
-          text-align: center;
-     }
-
-     .imagen {
-          max-width: 250px;
-     }
-
-     .galeria-imagen {
-          max-width: 250px;
-     }
-
+  main {
+    margin-inline: 0%;
+  }
+  .imagen {
+    max-width: 200px;
+  }
+  .fila {
+    justify-content: center;
+    text-align: center;
+  }
+  .columna {
+    max-width: 2500px;
+  }
+  .galeria-imagen {
+    max-width: 250px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+/* reset */
+
+/* PRINCIPAL */
+
+body {
+    background-color: $color-fondo;
+}
+
+
+p {
+    font-family: "Edu AU VIC WA NT Hand";
+    font-size: 120%;
+    color: $color-letras;
+}
+
+h1 {
+    @extend p;
+    font-size: 200%;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    @extend p;
+    font-size: 150%;
+}
+
+
+
+
+/* HEADER */
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+
+
+/* MAIN */
+
+main {
+    margin-inline: $margen-pc;
+
+}
+
+.imagen {
+    max-width: 400px;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 1%;
+}
+
+
+.columna {
+    max-width: 600px;
+    margin: 1%;
+}
+
+
+.galeria-imagen {
+    max-width: 300px;
+}
+
+.centrado {
+    justify-content: center;
+    text-align: center;
+}
+
+.animacion:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.icon {
+    color: white;
+    font-size: 36px;
+
+}
+
+.accordion {
+    width: 600px;
+}
+
+
+/* FOOTER */
+.footer {
+    margin-inline: 25%;
+    justify-content: center;
+}
+
