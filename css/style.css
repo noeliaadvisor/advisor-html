@@ -50,7 +50,7 @@ main {
 }
 
 .columna {
-  max-width: 600px;
+  max-width: 600%;
   margin: 1%;
 }
 
@@ -73,16 +73,37 @@ main {
   font-size: 36px;
 }
 
+.btn-primary {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+
 .accordion {
   width: 600px;
 }
 
 /* FOOTER */
 .footer {
-  margin-inline: 25%;
+  margin-inline: 35%;
   justify-content: center;
 }
 
+@media screen and (max-width: 1920px) {
+  .imagen {
+    max-width: 300px;
+  }
+  .fila {
+    justify-content: center;
+    text-align: center;
+  }
+  .galeria-imagen {
+    max-width: 300px;
+  }
+  .mapa {
+    width: 600px;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 1024px) {
   main {
     margin-inline: 5%;
@@ -95,10 +116,14 @@ main {
     text-align: center;
   }
   .columna {
-    max-width: 300px;
+    max-width: 400px;
   }
   .galeria-imagen {
     max-width: 300px;
+  }
+  .mapa {
+    width: 300px;
+    height: 300px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -113,10 +138,14 @@ main {
     text-align: center;
   }
   .columna {
-    max-width: 2500px;
+    max-width: 250px;
   }
   .galeria-imagen {
     max-width: 250px;
+  }
+  .mapa {
+    width: 250px;
+    height: 300px;
   }
 }
 

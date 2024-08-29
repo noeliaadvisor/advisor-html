@@ -1,7 +1,4 @@
-@media screen and (max-width: 1024px) {
-     main {
-          margin-inline: $margen-tablet;
-     }
+@media screen and (max-width: 1920px) {
 
      .imagen {
           max-width: 300px;
@@ -12,16 +9,12 @@
           text-align: center;
      }
 
-     .columna {
-          max-width: 400px;
-     }
-
      .galeria-imagen {
           max-width: 300px;
      }
 
      .mapa {
-          width: 300px;
-          height: 300px;
+          width: 600px;
+          height: 400px;
      }
 }

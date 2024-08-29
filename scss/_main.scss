@@ -58,11 +58,11 @@ main {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 1%;
+
 }
 
-
 .columna {
-    max-width: 600px;
+    max-width: 600%;
     margin: 1%;
 }
 
@@ -87,6 +87,10 @@ main {
 
 }
 
+.btn-primary {
+    @include boton-tratamientos($color-fondo: darkgray);
+}
+
 .accordion {
     width: 600px;
 }
@@ -94,7 +98,6 @@ main {
 
 /* FOOTER */
 .footer {
-    margin-inline: 25%;
+    margin-inline: 35%;
     justify-content: center;
 }
-

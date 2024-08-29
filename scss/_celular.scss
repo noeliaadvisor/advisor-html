@@ -1,23 +1,27 @@
-
 @media screen and (max-width: 480px) {
-    main {
-         margin-inline: $margen-celular;
-    }
+     main {
+          margin-inline: $margen-celular;
+     }
 
-    .imagen {
-         max-width: 200px;
-    }
+     .imagen {
+          max-width: 200px;
+     }
 
-    .fila {
-         justify-content: center;
-         text-align: center;
-    }
+     .fila {
+          justify-content: center;
+          text-align: center;
+     }
 
-    .columna {
-         max-width: 2500px;
-    }
+     .columna {
+          max-width: 250px;
+     }
 
-    .galeria-imagen {
-         max-width: 250px;
-    }
+     .galeria-imagen {
+          max-width: 250px;
+     }
+
+     .mapa {
+          width: 250px;
+          height: 300px;
+     }
 }

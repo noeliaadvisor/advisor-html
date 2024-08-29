@@ -1,0 +1,4 @@
+@mixin boton-tratamientos($color-fondo: darkgray) {
+    background-color: $color-fondo;
+    border-color: ($color-fondo);
+}
